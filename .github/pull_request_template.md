@@ -1,5 +1,17 @@
-## Sample Pull Request Template Description
+## 📝 Description
+Provide a clear summary of the changes made in this Pull Request.
 
-This is a sample pull request template. You can customize it to fit your project's needs.
+- [ ] Added new feature / documentation
+- [ ] Bug fix
+- [ ] Refactoring / Code cleanup
 
-Don't forget to commit your template file to the repository so that it can be used for future pull requests!
+## 🔗 Related Deliverable
+- [ ] PRD & Scope
+- [ ] System Architecture / API
+- [ ] UI / UX Workflows
+- [ ] Logistics & Routing Engine
+
+## ✅ Checklist Before Merging
+- [ ] Code/Documentation follows repository standards.
+- [ ] Self-review conducted on all updated files.
+- [ ] Tested locally with no breaking errors.
