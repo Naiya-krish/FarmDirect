@@ -19,8 +19,8 @@ Traditional Indian agri-food supply chains are dominated by unorganised middleme
 
 ##Planned System Architecture
 
-* **Frontend:** React Native / Expo[cite: 3]
-* **Backend:** FastAPI & PostgreSQL[cite: 3]
-* **AI Engine:** OpenAI Whisper (Speech NLP)[cite: 3]
-* **Logistics:** Google OR-Tools (Vehicle Routing Problem)[cite: 3]
+* **Frontend:** React Native / Expo
+* **Backend:** FastAPI & PostgreSQL
+* **AI Engine:** OpenAI Whisper (Speech NLP)
+* **Logistics:** Google OR-Tools (Vehicle Routing Problem)
 
