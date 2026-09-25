@@ -10,10 +10,10 @@ Traditional Indian agri-food supply chains are dominated by unorganised middleme
 
 ## 📄 Week 1 Project Documentation & Specifications
 
-***[Product Requirement Document (PRD)](./docs/PRD.md)** — Problem validation, target audience, and MVP scope[cite: 3].
-***[System Architecture & API Specs](./docs/ARCHITECTURE.md)** — Data flow diagrams, tech stack, and endpoint specs[cite: 3].
-***[UI/UX Screen Flows](./docs/UI_FLOW.md)** — Wireframe steps and user journey maps[cite: 3].
-***[Execution Roadmap](./docs/ROADMAP.md)** — Development schedule and milestone deliverables[cite: 3].
+***[Product Requirement Document (PRD)](./docs/PRD.md)** — Problem validation, target audience, and MVP scope.
+***[System Architecture & API Specs](./docs/ARCHITECTURE.md)** — Data flow diagrams, tech stack, and endpoint specs.
+***[UI/UX Screen Flows](./docs/UI_FLOW.md)** — Wireframe steps and user journey maps.
+***[Execution Roadmap](./docs/ROADMAP.md)** — Development schedule and milestone deliverables.
 
 ---
 
@@ -23,3 +23,4 @@ Traditional Indian agri-food supply chains are dominated by unorganised middleme
 * **Backend:** FastAPI & PostgreSQL[cite: 3]
 * **AI Engine:** OpenAI Whisper (Speech NLP)[cite: 3]
 * **Logistics:** Google OR-Tools (Vehicle Routing Problem)[cite: 3]
+
