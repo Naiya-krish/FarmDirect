@@ -1,20 +1,21 @@
-# Product Requirement Document (PRD) — FarmDirect
+# Product Requirement Document (PRD) — FarmDirect (v2.0)
 
 ## 1. Executive Summary
-FarmDirect is an agritech platform designed to connect smallholder farmers directly with buyers (retailers, kiranas, and urban households) while providing AI-driven price discovery and optimized cluster logistics.
+FarmDirect is a focused 6-week core B2B transaction engine connecting Farm Producer Organizations (FPOs) directly with local Kirana stores. It features Hindi voice-intake listing and automated Mandi price benchmarking.
 
 ## 2. Problem Statement
-Traditional Indian agri-food supply chains suffer from 5–6 intermediate hand-offs between farm gates and buyers.
-* **Low Farmer Earnings:** Farmers receive only 26.6% of the consumer price[cite: 3].
-* **High Post-Harvest Losses:** 6–15% of produce spoils during transit[cite: 3].
+Smallholder FPOs struggle with complex UI mobile apps and lack real-time pricing data, leaving them vulnerable to under-pricing bulk produce. 
+Simultaneously, local Kirana stores need direct bulk produce access without intermediary price inflations.
 
-## 3. Target Audience Personas
-* **Sellers (Farmers & FPOs):** Need price transparency and easy listing without complex typing[cite: 3].
-* **Bulk Buyers (Kiranas & Retailers):** Need reliable, quality-checked fresh produce delivered directly[cite: 3].
-* **Consumers (Urban Households):** Need transparent pricing and farm-fresh traceability[cite: 3].
-* **Logistics Partners:** Need route density to avoid partial loads and empty return runs[cite: 3].
+## 3. Target Audience (Single Persona Pair)
+* **FPO Sellers:** Need rapid, hands-free listing in local Hindi dialect with pricing protection.
+* **Kirana Buyers:** Need transparent, direct bulk ordering from nearby verified FPOs.
 
-## 4. MVP Scope
-* Multilingual audio listing (Hindi/Marathi) using Whisper NLP[cite: 3].
-* Real-time AI price recommendation engine based on Mandi rates[cite: 3].
-* Dual fulfillment tracks: Farm Fresh vs Quick Store[cite: 3].
+## 4. Rescoped MVP Features
+1. **FPO Voice Listing:** Speech-to-text Hindi crop parsing via OpenAI Whisper.
+2. **Mandi Price Bounds:** Automated dynamic price bounds via Agmarknet memory cache.
+3. **Human-in-the-Loop Override:** FPO leads retain 100% control to adjust final pricing before posting[cite: 1].
+4. **Kirana Bulk Orders:** Direct B2B REST order placement and inventory lock.
+
+## 5. Core Value Metric
+> Enables **1 FPO** to supply **50+ local Kirana stores** with verified bulk pricing
